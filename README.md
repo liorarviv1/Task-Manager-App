@@ -13,3 +13,5 @@ This is FullStack project that uses the technologies:
     <li>MongoDB - Database</li>
 
 </ul>
+Here are some screenshots from the project
+
