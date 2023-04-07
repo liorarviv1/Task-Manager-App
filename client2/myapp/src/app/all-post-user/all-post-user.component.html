@@ -1,0 +1,18 @@
+<form #f="ngForm" >
+
+    <div *ngIf="show==true" style="width: 400px;border: solid 4px rgb(177, 98, 177); flex:2" >
+        <!-- <div> -->
+       Title: {{allDataPost4.title}} <br>
+       Body: {{allDataPost4.body}} &nbsp; &nbsp;
+
+
+    </div>
+</form>
+<br>
+<div>
+    <app-add-post *ngIf="!show"></app-add-post>
+</div>
+
+
+
+    

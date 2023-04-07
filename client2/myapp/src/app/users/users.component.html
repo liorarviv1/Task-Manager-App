@@ -1,0 +1,33 @@
+<form #f="ngForm" (ngSubmit)="updateUser()">
+    <!-- <div [ngStyle]="{'border-color': isRedFrame ? 'red' : 'blue'}" > -->
+    <!-- <div style="width: 400px;border: solid 4px blue;" > -->
+        <div [ngStyle]="{'border': '4px solid '+ (colorBorderSolod? 'blue' : 'red')}">
+            <div [ngStyle]="{'background-color':(backgroundColor ? 'orange' :'white')}">
+                <!-- ID: <button (click)="showTasks()">{{userData._id}}</button>  <br> -->
+                ID:<a [routerLink]='[""]' (click)="showTasks()">{{userData._id}}</a>  <br>
+                Name: <input type="text" value="{{userData.name}}" name="nameUser" [(ngModel)]="userData.name"> <br>
+                Email: <input type="text" value="{{userData.email}}" name="emailUser"  [(ngModel)]="userData.email"><br> <br>
+            
+                <div style="background-color: rgb(197, 192, 192) ;width: 250px;border: solid 2px black;"  [hidden]="isHidden">
+                    Street: <input type="text" value="{{userData.street}}" name="streetUser" [(ngModel)]="userData.street"><br>
+                City: <input type="text" value="{{userData.city}}" name="cityUser" [(ngModel)]="userData.city" ><br>
+                    Zip Code: <input type="number" value="{{userData.zipcode}}" name="zipCodUser" [(ngModel)]="userData.zipcode" ><br>
+                </div>
+            
+                <button (mouseover)="hide()">Other Data</button> &nbsp; &nbsp;
+                <input type="submit" value="Update User" (click)="updateUser">
+                <!-- <button (clike)="updateUser()">Update</button> -->
+                <!-- <button (click)="deletUser(userData._id)">עוד לא עשיתי מחיקה</button> -->
+                <input type="button" (click)="deletUser()" value="Delet User">
+            
+
+                <!-- style="width: 400px;border: solid 4px blue;" -->
+            </div>
+    </div>
+    </form> 
+    
+    
+    <br/>
+    
+    
+    

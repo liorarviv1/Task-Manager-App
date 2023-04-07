@@ -1,0 +1,48 @@
+<p>all-data-user works!1111111111111111</p>
+
+<div>
+    <div >
+        <button (click)="addTask()"> Add Task/Show Tasks</button>
+    </div>
+
+    <!-- <div *ngIf="show" style="width: 407px;border: solid 4px black; flex:2"> -->
+        <!-- <div *ngIf="show" [ngStyle]="{'border': '1px solid ' + (show ? 'blue' : 'red') width: 407px}"> -->
+    <div *ngIf="show" [style.border]="show ? '2px solid black ':'2px solid white'"  [style.width.px]="407">
+
+
+        <app-all-todos-user [allDataTask4]="task" [locationInArr]="i" *ngFor="let task of allData4.tasks; let i = index"
+
+        [idUser]="allData4._id"
+        [bigallData4]="allData4"
+        >
+
+        </app-all-todos-user>
+
+    </div> <br/>
+    <app-add-to-do *ngIf="!show" [bigallData4]="allData4"> </app-add-to-do>
+    
+    <br>
+    <div >
+        <button (click)="addPoat()"> Add Post/Show post</button>
+    </div>
+    
+
+    <div *ngIf="showAddPost" style="width: 407px;border: solid 2px black; flex:2"> 
+
+        <app-all-post-user [allDataPost4]="post" [locationInArr]="i" *ngFor="let post of allData4.posts; let i = index"
+        [idUser]="allData4._id"
+        [bigallData4]="allData4">
+        
+
+        </app-all-post-user>
+    </div>
+    <app-add-post *ngIf="!showAddPost" [bigallData4]="allData4"> </app-add-post> 
+
+<!-- <app-add-to-do *ngIf="!show" [bigallData4]="allData4"> </app-add-to-do> -->
+
+</div>
+
+<!-- <router-outlet *ngIf="!show"></router-outlet> -->
+
+
+

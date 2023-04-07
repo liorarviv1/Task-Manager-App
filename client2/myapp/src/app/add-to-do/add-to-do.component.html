@@ -1,0 +1,10 @@
+
+<div *ngIf="show2" style="width: 400px;border: solid 2px black; flex:2">
+        
+    Title: <input type="text" #title> <br> <br>
+
+    <!-- <a routerLink="todos" (click)="notShowAdd">ddd</a>
+    <button >Cansel</button> &nbsp; -->
+    <button (click)="addTask(title.value)">Add Task</button> &nbsp;
+</div>
+

@@ -1,0 +1,34 @@
+<h1>Home page</h1> &nbsp;
+<button (click)="addUser()"> Add User</button>
+
+<div style="width: 35%; float: left;">
+    Serch: <input type="text" #search (keyup)="searchInfo(search.value)">
+    
+    <app-users (sentAllDataUser)="allData1=$event" [userData]="user" *ngFor="let user of searchUser"
+    (showalldataright1)="showall1=$event"    
+    ></app-users>
+    <!-- <router-outlet></router-outlet> -->
+
+
+
+</div>
+
+<div style="width: 50%; float: right;">
+    <div  *ngIf="showall1"> 
+        <!-- <router-outlet></router-outlet> -->
+        <app-all-data-user [allData4]="allData1"></app-all-data-user>
+
+            
+    </div> <br>
+    <div *ngIf="showAddNewUser" >
+        <app-add-new-user></app-add-new-user>
+    </div>
+</div>
+
+
+
+                           
+
+
+
+

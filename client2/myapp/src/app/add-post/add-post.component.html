@@ -1,0 +1,16 @@
+<form #f="ngForm" (ngSubmit)="addPost()" style="width: 400px;border: solid 2px black; flex:2">
+    Title:<input type="text" name="title" [(ngModel)]="newPost.title"> <br/>
+    Body:<input type="text" name="body" [(ngModel)]="newPost.body"><br/>
+    <input type="submit" value="Add Post">
+    <br/>
+
+
+</form>
+<!-- <div>
+    Title:<input type="text">
+    Body:<input type="text">
+
+    <button (click)="addPost()">Add</button> &nbsp;
+
+
+</div> -->

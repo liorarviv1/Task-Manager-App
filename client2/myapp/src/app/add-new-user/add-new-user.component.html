@@ -1,0 +1,9 @@
+<form #f="ngForm" (ngSubmit)="addUser(f.valid)" style="width: 400px;border: solid 2px black; flex:2">
+    Name: <input type="text" name="nameUser" [(ngModel)]="newUs.name"  #name1="ngModel" required> <br>
+    Email: <input type="text" name="emailUser" [(ngModel)]="newUs.email" #email12="ngModel" required   > <br>
+    <input type="submit" value="Add New User" [disabled]="!f.dirty" ><br/>
+    
+    <div *ngIf="!name1.valid && name1.dirty ">Name is mandatory</div>
+    <div *ngIf="!email12.valid && email12.dirty ">Email is mandatory</div>
+
+</form>
