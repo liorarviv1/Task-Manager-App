@@ -1,4 +1,5 @@
 # Users - Angular web application
+ <img src="https://user-images.githubusercontent.com/76798407/130129295-e752e4c7-cde9-4237-8945-3dbe11ed2b91.png"><br/>
  
 MEAN stack web app that displays users with their data.<br/>
 users have todos & posts. each user can add todos & posts, also mark a todo as completed.<br/>
