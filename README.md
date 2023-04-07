@@ -2,8 +2,7 @@
  
 MEAN stack web app that displays users with their data.<br/>
 users have todos & posts. each user can add todos & posts, also mark a todo as completed.<br/>
-if all the user's todos are completed, the user's border becomes green. the app also has a search option.<br/>
-In addition, I'v used RxJS Subjects for state managment.<br/><br/>
+if all the user's todos are completed, the user's border becomes green. the app also has a search option.<br/><br/>
 
 This is FullStack project that uses the technologies:
 <ul>
