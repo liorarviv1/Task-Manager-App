@@ -1,4 +1,4 @@
-# Users - Task-Manager-App
+# Task-Manager-App
  <img src="https://user-images.githubusercontent.com/129841851/230585486-16aaff39-b1d2-47ab-b53e-668cdbfea73a.png"><br/>
  
 MEAN stack web app that displays users with their data.<br/>
