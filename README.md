@@ -14,7 +14,6 @@ Additionally, the application has a search option, allowing users to quickly and
 
 Overall, this MEAN stack web application is a powerful tool for managing todos and posts. With its intuitive design and cutting-edge technology, it's a must-have for anyone looking to increase productivity and streamline their workflow.
 
-Thank you for considering my project. I'm excited to share it with the GitHub community and welcome any feedback or contributions.
 Here are some screenshots from the project <br/>
 <img src="https://user-images.githubusercontent.com/129841851/230610275-0f5db793-4bef-4725-ac6b-511ac6f9524d.png"><br/>
 <img src="https://user-images.githubusercontent.com/129841851/230613126-98612ee1-c865-4145-b681-e6d7a7a67d1f.png"><br/>
