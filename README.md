@@ -1,18 +1,9 @@
 # Task-Manager-App
  <img src="https://user-images.githubusercontent.com/129841851/230585486-16aaff39-b1d2-47ab-b53e-668cdbfea73a.png"><br/>
  
-Welcome to my MEAN stack web application project!
-This project is designed to efficiently display users and their data, with a focus on managing todos and posts.
+Welcome to my MEAN stack web application project! This app is designed to efficiently display user data with a focus on managing todos and posts. Built using the latest technologies, including Node.js, Express, Angular, and MongoDB, this stack provides a powerful and reliable foundation, ensuring top performance and scalability.
 
-The application is built using the latest technologies, including Node.js for the backend, Express for the server, Angular for the frontend, and MongoDB for the database.
-This stack provides a powerful and reliable foundation for the project, ensuring top performance and scalability.
-
-One exciting feature of the application is that if all of a user's todos are completed, their border becomes blue.
-This feature serves as a visual cue to encourage users to strive for completion and provides a sense of accomplishment when they reach their goals.
-
-Additionally, the application has a search option, allowing users to quickly and easily find the information they need. This feature saves users time and enhances the overall user experience.
-
-Overall, this MEAN stack web application is a powerful tool for managing todos and posts. With its intuitive design and cutting-edge technology, it's a must-have for anyone looking to increase productivity and streamline their workflow.
+One exciting feature of the application is that if all of a user's todos are completed, their border becomes blue, providing a visual cue to encourage users to strive for completion and providing a sense of accomplishment when they reach their goals. The app also has a search function, saving users time and enhancing the overall experience.
 <h3>How to run </h3>
 <ul>
  <h4> To run an Angular project: </h4>
@@ -31,8 +22,8 @@ Overall, this MEAN stack web application is a powerful tool for managing todos a
  <li> Once the dependencies are installed, start the server by running the command "node server.js" (or whatever the name of your server file is).</li>
  <li> If the server starts successfully, you should see a message in the terminal indicating that the server is listening on a particular port (e.g., "Listening on port 3000").</li>
  <li> You can then send HTTP requests to the server using a tool like Postman or by making requests from your web application.</li>
- 
 </ul>
+This MEAN stack web application is a powerful tool for managing todos and posts. With its intuitive design and cutting-edge technology, it's a must-have for anyone looking to increase productivity and streamline their workflow.
 
 
 Here are some screenshots from the project: <br/>
