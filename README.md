@@ -15,7 +15,7 @@ Additionally, the application has a search option, allowing users to quickly and
 Overall, this MEAN stack web application is a powerful tool for managing todos and posts. With its intuitive design and cutting-edge technology, it's a must-have for anyone looking to increase productivity and streamline their workflow.
 <h3>How to run </h3>
 <ul>
-<li> Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.</li>
+<li> Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.</li>
 </ul>
 
 
