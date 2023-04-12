@@ -16,7 +16,7 @@ Overall, this MEAN stack web application is a powerful tool for managing todos a
 <h3>How to run </h3>
 <ul>
  <h4> To run an Angular project: </h4>
-<li> Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.</li>
+
 <li>Install Node.js on your system if it's not already installed.</li>
 <li> Open a terminal/command prompt and navigate to the root directory of the Angular project.</li>
 <li> Install the required dependencies by running the command "npm install".</li>
