@@ -13,6 +13,11 @@ This feature serves as a visual cue to encourage users to strive for completion 
 Additionally, the application has a search option, allowing users to quickly and easily find the information they need. This feature saves users time and enhances the overall user experience.
 
 Overall, this MEAN stack web application is a powerful tool for managing todos and posts. With its intuitive design and cutting-edge technology, it's a must-have for anyone looking to increase productivity and streamline their workflow.
+<h3>How to run </h3>
+<ul>
+<li> Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.</li>
+</ul>
+
 
 Here are some screenshots from the project: <br/>
 <img src="https://user-images.githubusercontent.com/129841851/230610275-0f5db793-4bef-4725-ac6b-511ac6f9524d.png"><br/>
